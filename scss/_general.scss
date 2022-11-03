@@ -1,0 +1,25 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  all: inherit;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  background-color:gold;
+  position: relative;
+}
+li{
+  list-style-type: none;
+}
+img{
+   max-width: 100%;
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import "./normalize";
+@import "./mixin";
+@import "./general";
+@import "./layout/all-iayouts";
+
+
+input {
+   width: 20px;
+   height: 20px;
+}
+
+.onetitle{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+}
+
+.title {
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.ustida{
+   
+   font-weight: 500;
+}
+.qoshimcha{
+   font-weight: 500;  
+}
+.pitsa {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+}
+
+@media only screen and (max-width:680px) {
+
+   .wrapper {
+      display: block;
+      text-align: center;
+   }
+
+
+   .qosh {
+      width: 100%;
+      margin-top: 50px;
+      display: block;
+   }
+.aside{
+   padding-left: 40px;
+}
+
+   .qosh_hr {
+      text-align: center;
+      display: block;
+      width: 500px;
+      height: 2px;
+      background-color: black;
+      margin-bottom: 40px;
+   }
+
+}
+
+.kattaligi{
+   padding-bottom: 20px;
+}

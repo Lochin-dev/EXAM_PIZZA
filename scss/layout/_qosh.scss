@@ -1,0 +1,58 @@
+.qosh{
+   width: 40%;
+   display: flex;
+   
+   justify-content: start;
+   gap: 20px;
+   &_hr{
+      width: 2px;
+      height: 500px;
+      background-color: rgb(0, 0, 0);
+   }
+   
+}
+
+.aside_btn {
+   width: 220px;
+   height: 60px;
+   font-size: 23px;
+   font-weight: 700;
+   border: 1.5px solid rgb(249, 162, 0);
+   border-radius: 8px;
+   color: beige;
+   background-color: rgb(249, 162, 0);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+
+.aside_btn:hover {
+   width: 220px;
+   height: 60px;
+   font-size: 23px;
+   font-weight: 700;
+   border: 2px solid rgb(249, 162, 0);
+   border-radius: 8px;
+   color: beige;
+   background-color: rgba(249, 162, 0, 0.55);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+
+.aside_btn:active {
+   width: 220px;
+   height: 60px;
+   font-size: 23px;
+   font-weight: 700;
+   border: 2px solid rgb(249, 162, 0);
+   border-radius: 8px;
+   color: rgb(249, 162, 0);
+   background-color: rgba(255, 255, 255, 0.55);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
